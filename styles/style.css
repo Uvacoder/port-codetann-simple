@@ -31,6 +31,7 @@ nav {
 }
 
 nav ul {
+  color: #c1c2c6;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,7 +49,7 @@ nav ul li {
 }
 
 .home {
-  height: 60vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,5 +95,85 @@ nav ul li {
 .home span .resume {
   background: #2c323d;
   color: #c1c2c6;
+}
+
+.about {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.about h1 {
+  margin: 20px 0;
+}
+
+.about p {
+  line-height: 30px;
+  color: #c1c2c6;
+  margin-bottom: 20px;
+}
+
+.about h2 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.skill-container {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skill-container .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 10px;
+}
+
+.skill-container .container i {
+  font-size: 50px;
+}
+
+.skill-container .container p {
+  font-size: 12px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

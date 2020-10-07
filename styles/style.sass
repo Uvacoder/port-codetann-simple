@@ -23,6 +23,7 @@ nav
     height: 10vh
 
     ul
+        color: $fade-white
         list-style: none
         display: flex
         justify-content: center
@@ -35,7 +36,7 @@ nav
 
 .home
 
-    height: 60vh
+    height: 70vh
     display: flex
     flex-direction: column
     justify-content: space-evenly
@@ -61,3 +62,45 @@ nav
         .resume
             background: $fade-gray
             color: $fade-white
+
+.about
+    height: auto
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: flex-start
+
+    h1
+        margin: 20px 0
+
+    p
+        line-height: 30px
+        color: $fade-white
+        margin-bottom: 20px
+
+    h2
+        margin: 20px 0
+        font-size: 20px
+
+.skill-container
+    margin-top: 10px
+    width: 100%
+    height: auto
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-evenly
+    align-items: center
+
+    .container
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        margin: 0 10px
+        i
+            font-size: 50px
+        p
+            font-size: 12px
+            text-align: center
