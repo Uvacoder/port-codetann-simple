@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -19,70 +21,115 @@
   <body>
     <nav>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-      <button>X</button>
+      <button id="dark-mode" class="dark"><i class="fas fa-moon"></i></button>
     </nav>
+
     <!-- Home Section -->
-    <section class="home">
-      <h1>
-        Hello, Im Tanner. Im a self-taught web developer with a deep intrest in
-        front and backend development
+    <section id="home" class="home">
+      <h1 class="header">
+        Hello, Im Tanner. Im a self-taught web developer with a passion for front and backend development
       </h1>
-      <span
+      <span class="btn"
         ><button class="email">EMAIL ME</button
         ><button class="resume">RESUME</button></span
       >
-      <span>SOCIAL LINKS</span>
+      <span class="icons"><i class="fab fa-github"></i><i class="fab fa-codepen"></i><i class="fab fa-instagram"></i></span>
     </section>
+
     <!-- About Section -->
-    <section class="about">
-      <h1>About Me</h1>
+    <section id="about" class="about">
+      <h1 class="header">About Me</h1>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit nobis
-        eos tenetur temporibus error rerum soluta. Iusto quo molestias nulla
-        pariatur ut veniam ea atque corporis corrupti, doloribus consequatur
-        animi.
+        I'm a self-taught frontend developer based in Salt Lake City, Utah. My goal is to create engaging experiences for users, with a fine balance of technology and design.
       </p>
-      <h2>Skills</h1>
+      <h2 class="header">Skills</h1>
       <p>Technologies I've worked with</p>
       <div class="skill-container">
         <div class="container">
-          <i class="fab fa-react"></i>
+          <i style="color: #00d8ff" class="fab fa-react"></i>
           <p>React</p>
         </div>
         <div class="container">
-          <i class="fab fa-js"></i>
+          <i style="color: #f7df1e" class="fab fa-js"></i>
           <p>Javascript</p>
-        </div>
+        </div >
         <div class="container">
-          <i class="fab fa-html5"></i>
+          <i style="color: #e34f26" class="fab fa-html5"></i>
           <p>HTML 5</p>
         </div>
         <div class="container">
-          <i class="fab fa-css3-alt"></i>
+          <i style="color: #0099e5" class="fab fa-css3-alt"></i>
           <p>CSS</p>
         </div>
         <div class="container">
-          <i class="fab fa-sass"></i>
+          <i style="color: #cc7bd3" class="fab fa-sass"></i>
           <p>Sass</p>
         </div>
         <div class="container">
-          <i class="fab fa-node"></i>
+          <i style="color: #6cc24a" class="fab fa-node"></i>
           <p>Node JS</p>
         </div>
         <div class="container">
-          <i class="fab fa-git-alt"></i>
+          <i style="color: #ee6a2d" class="fab fa-git-alt"></i>
           <p>GIT</p>
         </div>
         <div class="container">
-          <i class="fab fa-python"></i>
+          <i style="color: #ffde57" class="fab fa-python"></i>
           <p>Python</p>
         </div>
       </div>
     </section>
+
+    <!-- Project Secton-->
+    <section id="projects" class="projects">
+      <h1 class="header">Projects</h1>
+      <p>Collection of personal web dev projects</p>
+      <div class="project-container">
+        <div class="card">
+          <h3>Movies</h3>
+          <p><em>A movie search app based on the Epic Games store design, which provides trending movies, ablibity to search and save movies to favorites with the power of local storage</em></p>
+          <span class="skills"><h6>React</h6><h6>Styled-Components</h6><h6>TMDB API</h6><h6>React-Router</h6></span>
+          <span class="links"><a>Github <i class="fas fa-external-link-alt"></i></a><a>Live App <i class="fas fa-external-link-alt"></i></a></span>
+        </div>
+        <div class="card">
+          <h3>Movies</h3>
+          <p><em>A movie search app based on the Epic Games store design, which provides trending movies, ablibity to search and save movies to favorites with the power of local storage</em></p>
+          <span class="skills"><h6>React</h6><h6>Styled-Components</h6><h6>TMDB API</h6><h6>React-Router</h6></span>
+          <span class="links"><a>Github <i class="fas fa-external-link-alt"></i></a><a>Live App <i class="fas fa-external-link-alt"></i></a></span>
+        </div>
+        <div class="card">
+          <h3>Movies</h3>
+          <p><em>A movie search app based on the Epic Games store design, which provides trending movies, ablibity to search and save movies to favorites with the power of local storage</em></p>
+          <span class="skills"><h6>React</h6><h6>Styled-Components</h6><h6>TMDB API</h6><h6>React-Router</h6></span>
+          <span class="links"><a>Github <i class="fas fa-external-link-alt"></i></a><a>Live App <i class="fas fa-external-link-alt"></i></a></span>
+        </div>
+        <div class="card">
+          <h3>Movies</h3>
+          <p><em>A movie search app based on the Epic Games store design, which provides trending movies, ablibity to search and save movies to favorites with the power of local storage</em></p>
+          <span class="skills"><h6>React</h6><h6>Styled-Components</h6><h6>TMDB API</h6><h6>React-Router</h6></span>
+          <span class="links"><a>Github <i class="fas fa-external-link-alt"></i></a><a>Live App <i class="fas fa-external-link-alt"></i></a></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h1>Contact</h1>
+      <p>Send me a message</p>
+      <div class="contact-form">
+        <form action="">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <textarea placeholder="Enter message here" name="msg" id="msg" cols="30" rows="10"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <script src="./app.js"></script>
   </body>
 </html>
