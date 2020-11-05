@@ -130,6 +130,11 @@ nav button:hover {
   height: 45px;
 }
 
+.home span button a {
+  text-decoration: none;
+  color: #0d131a;
+}
+
 .home span button:hover {
   cursor: pointer;
   opacity: .7;
